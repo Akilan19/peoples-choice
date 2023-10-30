@@ -16,6 +16,7 @@
 
   <body>
     <header>
+      <div class="heading">
       <img src="assets/favicon.ico" alt="Logo" />
       <h1 class="ml11 title">
         <span class="text-wrapper">
@@ -23,8 +24,9 @@
           <span class="letters">PEOPLE'S CHOICE</span>
         </span>
       </h1>
+    </div>
       <div class="InputContainer">
-        <input type="text" name="text" class="input" id="input" placeholder="Search">
+        <input type="text" name="text" class="input" id="input" placeholder="Search" oninput="showSearchResults()">
         <label for="input" class="labelforsearch">
           <svg viewBox="0 0 512 512" class="searchIcon">
             <path
